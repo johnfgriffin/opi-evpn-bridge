@@ -5,6 +5,8 @@ FROM docker.io/library/golang:1.20.5-alpine as builder
 
 WORKDIR /app
 
+#test code Docker images creation
+
 # Download necessary Go modules
 COPY go.mod ./
 COPY go.sum ./
